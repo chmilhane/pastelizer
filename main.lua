@@ -23,8 +23,8 @@ function love.load()
   Pastelizer.PastelLevel = 2
 
   Pastelizer.Fonts = {
-    Semibold = love.graphics.newFont("assets/fonts/Poppins-Semibold.ttf", 24),
-    Bold = love.graphics.newFont("assets/fonts/Poppins-Bold.ttf", 48)
+    Semibold = love.graphics.newFont("assets/fonts/poppins_semibold.ttf", 24),
+    Bold = love.graphics.newFont("assets/fonts/poppins_bold.ttf", 48)
   }
 
   local w, h = love.graphics.getDimensions()
